@@ -1,4 +1,4 @@
-// console.log('Welcome, to complete JavaScript Course');
+// console.log('hello world');
 
 // var myName = 'prince';
 // var myAge = 22;
