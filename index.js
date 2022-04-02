@@ -437,4 +437,118 @@
 // obj.myName();
 
 
-//------------------------------   watched till 11:16   -----------------
+
+// ----
+
+
+
+// const add = (a,b) => {
+//     return a+b;
+// }
+// // console.log(add(5,2));
+
+// const subs = (a,b) => {
+//     return Math.abs(a-b);
+// }
+// const mult = (a,b) => {
+//     return a*b;
+// }
+
+// const calcy = (num1,num2, operator) => {
+//   return operator(num1,num2);
+// }
+
+// calcy(5,2,subs)
+// console.log(calcy(5,2,subs));
+// console.log(calcy(2,3,add));
+// console.log(calcy(5,4,subs));
+// console.log(calcy(10,6,mult));
+
+
+
+// const fun1 = () => {
+//   console.log(`Function 1 is called`);
+//   fun2();
+//   console.log(`Function 1 is called Again `);
+// }
+
+// fun1();
+
+// const fun2 = () => {
+//   setTimeout(()=> {
+//       console.log(`Function 2️  is called`);
+//   }, 2000);
+// }
+
+// const fun1 = () => {
+//   console.log(`Function 1 is called`);
+//   fun2();
+//   console.log(`Function 1 is called Again `);
+// }
+
+// fun1();
+
+
+
+// let a = "Hello..."; 
+
+// const first= () => {
+//   let b = " How are you?"
+ 
+//     const second = () => {
+//       let c = " bye bye .....";
+//       console.log(a+b+c);
+//     }
+//     second();
+    
+// }
+
+// first();
+
+
+
+// const sum = (num1) => (num2) => (num3) => console.log(num1+num2+num3); 
+
+// sum(5)(3)(8);
+
+
+// setTimeout(()=>{
+//     console.log(`1️ works is done`);    
+//     setTimeout(()=>{
+//         console.log(`2️ works is done`); 
+//         setTimeout(()=>{
+//             console.log(`3️ works is done`);  
+//             setTimeout(()=>{
+//                 console.log(`4 works is done`); 
+//                 setTimeout(()=>{
+//                     console.log(`5️ works is done`);   
+//                     setTimeout(()=>{
+//                         console.log(`6 works is done`);    
+//                     }, 1000) 
+//                 }, 1000)   
+//             }, 1000)  
+//         }, 1000)   
+//     }, 1000)
+// }, 1000)
+
+
+
+// var object = { key_1: "some text", key_2: true, key_3: 10 };
+
+// var object_as_string = JSON.stringify(object);  
+// // "{"key_1":"some text","key_2":true,"key_3":10}"  
+
+// console.log(object_as_string);
+
+// typeof(object_as_string);  
+
+
+
+// var object_as_string_as_object = JSON.parse(object_as_string);
+// // {key_1: "text", key_2: true, key_3: 10} 
+
+// typeof(object_as_string_as_object);  
+
+
+
+// --------------------  Finished the Tutorial Part (14:36) ------------
